@@ -13,7 +13,9 @@
     line-height: 1.6;
     background-color: $colorBackground;
     color: $colorTitle;
-    @include transition(background-color);
+    transition: background-color $cubic-bezier, color $cubic-bezier,
+        box-shadow $cubic-bezier;
+    // @include transition(background-color);
     // @include transition(color);
     // @include transition(box-shadow);
 

@@ -20,7 +20,8 @@
     border-radius: $borderRadius;
     fill: $colorIcon;
     @include border($colorIcon);
-    @include transition(fill);
+    transition: fill $cubic-bezier, border $cubic-bezier;
+    // @include transition(fill);
     // @include transition(border);
     &:hover {
         fill: $colorDecor;
