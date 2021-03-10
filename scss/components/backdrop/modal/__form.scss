@@ -92,12 +92,11 @@
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
-
-    &--link {
-        color: $colorDecor;
-        border-bottom: 1px solid $colorDecor;
-        line-height: 1;
-    }
+}
+.modal__text-checkbox--link {
+    color: $colorDecor;
+    border-bottom: 1px solid $colorDecor;
+    line-height: 1;
 
     &::before {
         content: "";
@@ -113,11 +112,10 @@
         background-color: $colorMain;
         @include transition(background-color);
     }
-
-    .modal__checkbox:checked ~ &::before {
-        background-color: $colorDecor;
-        border: none;
-    }
+}
+.modal__checkbox:checked ~ &::before {
+    background-color: $colorDecor;
+    border: none;
 }
 
 .modal__btn {

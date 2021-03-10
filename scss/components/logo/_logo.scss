@@ -1,11 +1,9 @@
 .logo {
-  @include fonts;
-  font-size: 26px;
-  display: inline-block;
-  &-decor {
-    color: $colorDecor;
-  }
+    @include fonts;
+    font-size: 26px;
+    display: inline-block;
 }
 
-
-
+.logo__decor {
+    color: $colorDecor;
+}

@@ -17,6 +17,8 @@
     border: 1px solid $color;
 }
 
+
+
 @mixin transition(
     $property,
     $time: 250ms,
@@ -36,6 +38,18 @@
 ) {
     box-shadow: $layer-1, $layer-2, $layer-3;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 @mixin centeredFlex($type: flex) {
     display: $type;
