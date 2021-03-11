@@ -105,6 +105,6 @@ dist
 .tern-port
 
 # my files
+.vscode
 css
 REPETA
-.vscode
