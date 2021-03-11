@@ -1,6 +1,3 @@
-# my files
-css
-REPETA
 
 # Logs
 logs
@@ -106,3 +103,7 @@ dist
 
 # TernJS port file
 .tern-port
+
+# my files
+css
+REPETA
