@@ -7,7 +7,7 @@
     background: $colorBackdrop;
 
     opacity: 1;
-    @include transition(opasity);
+    @include transition(opacity);
 }
 .backdrop__hidden {
     opacity: 0;

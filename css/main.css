@@ -122,14 +122,17 @@ textarea {
   font-weight: 700;
   font-style: normal;
   letter-spacing: 0.03em;
+  font-family: Raleway;
   font-size: 26px;
+  line-height: 1.192;
   display: inline-block;
 }
 
-.logo-decor {
+.logo .logo__decor {
   color: #2196f3;
 }
 
+/* identical to box height */
 .button {
   font-weight: 700;
   font-size: 16px;
@@ -197,13 +200,17 @@ textarea {
   letter-spacing: 0.02em;
 }
 
-.header__contacts :not(:last-child),
+.header__contacts :not(:last-child) {
+  margin-right: 30px;
+}
+
 .header__nav-list :not(:last-child) {
   margin-right: 50px;
 }
 
 .header__nav-link {
   color: #212121;
+  letter-spacing: 0.01em;
 }
 
 .header__nav-link--current {
@@ -265,8 +272,9 @@ textarea {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
-  margin-bottom: 30px;
+  margin-bottom: 27px;
 }
 
 .features {
@@ -333,7 +341,10 @@ textarea {
 }
 
 .making__title {
-  margin-bottom: 50px;
+  margin-bottom: 48px;
+  font-size: 36px;
+  line-height: 49px;
+  letter-spacing: 0.03em;
 }
 
 .making__list {
@@ -363,6 +374,7 @@ textarea {
   color: #fff;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   text-align: center;
 }
@@ -377,6 +389,7 @@ textarea {
 
 .team__title {
   margin-bottom: 50px;
+  letter-spacing: 0.03em;
 }
 
 .team__list {
@@ -398,13 +411,14 @@ textarea {
 }
 
 .team-name {
-  padding: 30px 32px 20px;
+  padding: 30px 32px;
 }
 
 .team__title-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
+  letter-spacing: 0.03em;
   margin-bottom: 10px;
 }
 
@@ -488,13 +502,12 @@ textarea {
 }
 
 .footer__logo {
-  line-height: 1.19;
   margin-bottom: 20px;
   color: #fff;
 }
 
 .footer__address {
-  margin-right: 70px;
+  margin-right: 81px;
 }
 
 .footer__text-address {
@@ -515,10 +528,6 @@ textarea {
 
 .footer__item:not(:last-child) {
   margin-bottom: 9px;
-}
-
-.footer__social-links {
-  margin-right: 93px;
 }
 
 .footer__subscribe {
@@ -606,6 +615,7 @@ textarea {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding: 10px 27px;
 }
 
 .footer__subscribe-btn:hover {
@@ -750,8 +760,8 @@ textarea {
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
   opacity: 1;
-  -webkit-transition: opasity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: opasity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop__hidden {
@@ -921,7 +931,7 @@ textarea {
   line-height: 1;
 }
 
-.modal__text-checkbox::before {
+.modal__text-checkbox--link::before {
   content: "";
   display: inline-block;
   width: 16px;
@@ -935,7 +945,7 @@ textarea {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal__checkbox:checked ~ .modal__text-checkbox::before {
+.modal__checkbox:checked ~ .modal__text-checkbox--link::before {
   background-color: #2196f3;
   border: none;
 }

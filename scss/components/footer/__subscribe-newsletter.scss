@@ -39,6 +39,7 @@
 }
 .footer__subscribe-btn {
     @include centeredFlex;
+    padding: 10px 27px;
     &:hover {
        box-shadow: $box-shadowBtn
     }

@@ -112,10 +112,11 @@
         background-color: $colorMain;
         @include transition(background-color);
     }
-}
-.modal__checkbox:checked ~ &::before {
-    background-color: $colorDecor;
-    border: none;
+
+    .modal__checkbox:checked ~ &::before {
+        background-color: $colorDecor;
+        border: none;
+    }
 }
 
 .modal__btn {

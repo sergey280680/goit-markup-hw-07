@@ -34,12 +34,15 @@
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
-.header__contacts :not(:last-child),
+.header__contacts :not(:last-child){
+    margin-right: 30px;
+}
 .header__nav-list :not(:last-child) {
     margin-right: 50px;
 }
 .header__nav-link {
     color: $colorNav;
+    letter-spacing: 0.01em;
 }
 
 .header__nav-link--current {
@@ -74,3 +77,11 @@
     color: $colorNav;
     margin-right: 93px;
 }
+
+// font-family: Roboto;
+// font-style: normal;
+// font-weight: 500;
+// font-size: 14px;
+// line-height: 16px;
+// line-height: 1.142;
+// letter-spacing: 0.02em;

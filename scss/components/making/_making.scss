@@ -3,8 +3,12 @@
   text-align: center;
 }
 .making__title {
-  margin-bottom: 50px;
+  margin-bottom: 48px;
+  font-size: 36px;
+line-height: 49px;
+letter-spacing: 0.03em;
 }
+
 .making__list {
   display: flex;
   flex-wrap: nowrap;
@@ -28,6 +32,14 @@
   color: $colorMain;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   text-align: center;
 }
+// font-family: Roboto;
+// font-style: normal;
+// font-weight: bold;
+// font-size: 36px;
+// line-height: 42px;
+// text-align: center;
+// letter-spacing: 0.03em;
